@@ -92,6 +92,7 @@ footer{clear:both;
     border-color: #4aaaa5;
     border: solid;
     border-top-width: 8px;
+    margin-top: -50px;
 }
 h2 h1{font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -147,4 +148,46 @@ h2 h1{font-family: Georgia, 'Times New Roman', Times, serif;
     Background-color:#4aaaa5;
     color:white;
     text-align: center;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+@media screen and (max-width: 980px){
+    .links{position: absolute;
+        margin:auto;
+        align-content: center;
+        left:180px;
+        right:400px;
+        Top:520px;
+        padding-right: 200px;
+        padding-left: 200px;
+}
+@media screen and (max-width: 760px){
+    .links{position: absolute;
+        margin:auto;
+        align-content: center;
+        left:180px;
+        right:400px;
+        Top:520px;
+        padding-right: 200px;
+        padding-left: 200px;
+}
+@media screen and (max-width: 640px){
+    .links{position: absolute;
+        margin:auto;
+        align-content: center;
+        left:180px;
+        right:400px;
+        Top:520px;
+        padding-right: 200px;
+        padding-left: 200px;
 }
